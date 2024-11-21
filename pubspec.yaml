@@ -13,6 +13,10 @@ dependencies:
   mobile_scanner: ^6.0.2
   mongo_dart: ^0.10.3
   qr_flutter: ^4.1.0
+  sqflite: ^2.0.0+4
+  path_provider: ^2.0.11
+  cached_network_image: ^3.2.1
+  shared_preferences: ^2.3.3
 
 dev_dependencies:
   flutter_test:
@@ -23,11 +27,10 @@ flutter:
   uses-material-design: true
 
   assets:
-    - images/perfil.jpg
-    - images/bebidas.jpg
-    - images/alitas.jpg
-    - images/snacks.jpg
-    - images/bg.jpeg
-    - images/Cervezas.png
-    - icons/icons8-mesa-de-restaurante-64.png
-    - assets/productos.json
+    - assets/images/perfil.jpg
+    - assets/images/bebidas.jpg
+    - assets/images/alitas.jpg
+    - assets/images/snacks.jpg
+    - assets/images/bg.jpeg
+    - assets/images/Cervezas.png
+    - assets/icons/icons8-mesa-de-restaurante-64.png
